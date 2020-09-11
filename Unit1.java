@@ -122,7 +122,7 @@ public class Unit1 {
             System.out.println("Evaporation: " + energyChange + "kJ");
         }
         else {
-            energyChange = round(m* 2.257);
+            energyChange = round(m* -2.257);
             System.out.println("Condensation: " + energyChange + "kJ");
         }
         return energyChange;
